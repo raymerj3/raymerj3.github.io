@@ -1,0 +1,120 @@
+body {
+	margin: 0;
+	background-color: #D0D0D0;
+
+}
+
+h1 {
+    font-family: "Georgia", serif;
+}
+
+h4 {
+    font-family: "Tomaha", sans-serif;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	font-size: x-large;
+
+}
+
+.logo {
+	width: 300px;
+	height: 300px;
+}
+
+.planePhoto {
+	float: right;
+	width: 400px;
+	height: 275px;
+	margin-right: 350px;
+	
+}
+
+.selfPhoto {
+	width: 13%;
+	height: 13%;
+	margin-left: 40px;
+}
+.pageWelcome {
+	display: inline-block;
+	margin-left: 500px;
+}
+
+.rowMaster {
+	display: inline-block;
+	position: relative;
+	font-size: 20px;
+	letter-spacing: 1px;
+    width: 700px;
+	height: 200px;
+	margin-left: 200px;
+	align-items: center;
+}
+.marginKeeper {
+	margin-left: 350px;
+}
+
+.simPar {
+	font-size: 18px;
+	margin-right: 300px;
+	
+}
+.simPhoto {
+	margin-left: 350px;
+	width: 450px;
+	height: 250px;
+}
+ul li {
+  font-size: 85%; 
+}
+
+.container {
+	max-width: 600px;
+	margin: 50px auto;
+	background-color: white;
+	padding: 30px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+label {
+	display: block;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+textarea {
+	width: 97%;
+	height: 100px;
+	margin: auto;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	resize: vertical;
+}
+
+input {
+	width: 97%;
+	padding: 10px;
+	margin: auto;
+	margin-bottom: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+button {
+	margin-top: 20px;
+	background-color: #4c7caf;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #454ca0;
+}
